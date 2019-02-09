@@ -7,9 +7,15 @@ int main(void) {
 	{
 		printf("Even");
 	}
+	
+	else if(k<0)
+	{
+		printf("invalid");
+	}
 	else
 	{
 		printf("Odd");
 	}
 	return 0;
 }
+
